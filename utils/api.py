@@ -20,6 +20,7 @@ class SWAPI_api():
         print(f'List of film urls with Darth Vader: {result_films}')
         return result_films
 
+
     """Method to get a list of characters urls then get names and save them into a txt file"""
     @staticmethod
     def get_characters_from_films_with_darth_vader(result_films):
