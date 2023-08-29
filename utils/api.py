@@ -15,7 +15,7 @@ class SWAPI_api():
         get_url = (f"{base_url}{get_resource}")   #Full url to get method
         print(get_url)
         result = HttpMethods.get(get_url)
-        print(result.text)
+        print(result.text)git
         result_films = result.json().get("films")
         print(f'List of film urls with Darth Vader: {result_films}')
         return result_films
